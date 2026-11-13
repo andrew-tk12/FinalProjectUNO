@@ -3,6 +3,17 @@ from drafter import *
 from dataclasses import dataclass
 import random
 
+set_website_title("Corgi Cafe")
+set_site_information(
+    author="Your Name",
+    description="Order snacks for very good dogs.",
+    sources="Thanks to the Drafter docs and my study group.",
+    planning=["plan.pdf", "design.pdf"],
+    links=["https://github.com/your-username/your-repository"]
+)
+hide_debug_information()
+set_website_framed(False)
+
 COLORS = ["Turquoise", "Magenta ", "Saffron ", "Jade"]
 VALUES = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
