@@ -8,7 +8,7 @@ set_site_information(
     author="Andrew Tkach",
     description="Play EXOTIC UNO with your friends.",
     sources="Drafter docs and TAs.",
-    planning=["plan.pdf", "design.pdf"],
+    planning=["Copy of CS1 Final Project 0_ Pick a Problem.pdf", "CS1 Final Project 1_ Design - UNO Game (1).pdf"],
     links=["https://github.com/andrew-tk12/your-repository"]
 )
 hide_debug_information()
