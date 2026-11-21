@@ -327,4 +327,6 @@ assert isinstance(index(empty_state()), Page)
 assert isinstance(setup_page(empty_state()), Page)
 assert isinstance(rules_page(empty_state()), Page)
 
+set_website_style("magick")
+
 start_server(empty_state())
